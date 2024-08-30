@@ -14,6 +14,7 @@ returnBtn.addEventListener("click", () => {
   resultSection.classList.add("hidden");
 });
 
+
 function calcWakeUpTimes() {
   const fallAsleepTime = new Date();
   fallAsleepTime.setMinutes(fallAsleepTime.getMinutes() + 14);
